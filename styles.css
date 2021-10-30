@@ -1,0 +1,97 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+
+ *  {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0.5em;
+    background-color: rgb(218, 162, 78);
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+    background-image: url("images/background-leaf.jpeg");
+    /*--background-size: cover;--*/
+   /*-- background-position: center;--*/
+}
+
+.leaf-1 {
+    opacity: 1;
+    transform: scale(.5);
+}
+
+.leaf-2 {
+    opacity: 1;
+    transform: scale(.5);
+}
+
+
+/* GALLERY PAGE
+------------------------------------- */
+h1 {
+
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    max-width: 50em;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    padding: 0.5em;
+    border: 1px solid rgb(2, 36, 7);
+    display: grid;
+    align-items: end;
+    background: rgb(45, 17, 17);
+}
+
+
+/* GRID */
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
